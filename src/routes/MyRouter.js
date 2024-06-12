@@ -1,8 +1,8 @@
-import { Routes, Route } from "react-router-dom";
-import APropos from "../pages/A-Propos/A-Propos.js";
-import Error404 from "../pages/Error-404/Error-404.js";
-import FicheLogement from "../pages/Fiche-Logement/Fiche-Logement.js";
-import Home from "../pages/Home/Home.js";
+import { Route, Routes } from "react-router-dom";
+import APropos from "../pages/A-Propos.js";
+import Error404 from "../pages/Error-404.js";
+import FicheLogement from "../pages/Fiche-Logement.js";
+import Home from "../pages/Home.js";
 
 function MyRouter() {
   return (

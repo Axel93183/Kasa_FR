@@ -1,13 +1,13 @@
 import "../assets/sass/pages/_app.scss";
 import { BrowserRouter as Router } from "react-router-dom";
 import MyRouter from "../routes/MyRouter";
-import Header from "../components/Header/Header";
+import Navbar from "../components/Header/Navbar";
 
 function App() {
   return (
     <Router>
       <div className="App">
-          <Header />
+        <Navbar />
         <MyRouter />
       </div>
     </Router>

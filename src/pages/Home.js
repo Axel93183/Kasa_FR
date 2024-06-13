@@ -1,7 +1,8 @@
 import "../assets/sass/pages/_home.scss";
+import Banner from "../components/Header/Banner";
 
 function Home() {
-  return <h2>Accueil</h2>;
+  return <Banner />;
 }
 
 export default Home;

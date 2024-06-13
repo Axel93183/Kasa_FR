@@ -6,7 +6,32 @@
   vertical-align: baseline;
 }
 
-@mixin font-size-desktop {
+@mixin font-24px-w500 {
   font-size: 24px;
   font-weight: 500;
+}
+
+@mixin font-18px-w700 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@mixin font-48px-w700 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin content-center {
+  justify-content: center;
+  align-items: center;
 }

@@ -1,4 +1,4 @@
-import "../assets/sass/pages/_a-propos.scss"
+import "../assets/sass/pages/_a-propos.scss";
 
 function APropos() {
   return <h2 className="apropos">À propos</h2>;

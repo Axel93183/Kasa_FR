@@ -1,7 +1,7 @@
-import "../assets/sass/pages/_app.scss";
 import { BrowserRouter as Router } from "react-router-dom";
-import MyRouter from "../routes/MyRouter";
+import "../assets/sass/pages/_app.scss";
 import Navbar from "../components/Header/Navbar";
+import MyRouter from "../routes/MyRouter";
 
 function App() {
   return (

@@ -11,6 +11,16 @@
   font-weight: 500;
 }
 
+@mixin font-14px-w500 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@mixin font-18px-w500 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
 @mixin font-24px-w500 {
   font-size: 24px;
   font-weight: 500;

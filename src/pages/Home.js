@@ -1,6 +1,6 @@
 import kasa_data from "../assets/json/kasa_data.json";
 import "../assets/sass/pages/_home.scss";
-import Banner from "../components/Header/Banner";
+import Banner from "../components/header/Banner";
 import CardList from "../components/main/CardList";
 
 function Home() {

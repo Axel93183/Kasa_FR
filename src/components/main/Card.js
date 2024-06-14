@@ -1,11 +1,11 @@
 import "../../assets/sass/components/_card.scss";
 
-function Card({ title, cover }) {
+function Card({ housing }) {
   return (
     <div className="card">
-      <img src={cover} alt="l'aménagement intérieur du logement" />
+      <img src={housing.cover} alt="l'aménagement intérieur du logement" />
       <div className="card-content">
-        <h2>{title}</h2>
+        <h2>{housing.title}</h2>
       </div>
     </div>
   );

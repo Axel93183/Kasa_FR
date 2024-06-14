@@ -6,6 +6,11 @@
   vertical-align: baseline;
 }
 
+@mixin font-12px-w500 {
+  font-size: 12px;
+  font-weight: 500;
+}
+
 @mixin font-24px-w500 {
   font-size: 24px;
   font-weight: 500;

@@ -9,31 +9,43 @@
 @mixin font-12px-w500 {
   font-size: 12px;
   font-weight: 500;
+  line-height: 142.6%;
 }
 
 @mixin font-14px-w500 {
   font-size: 14px;
   font-weight: 500;
+  line-height: 142.6%;
 }
 
 @mixin font-18px-w500 {
   font-size: 18px;
   font-weight: 500;
+  line-height: 142.6%;
 }
 
 @mixin font-24px-w500 {
   font-size: 24px;
   font-weight: 500;
+  line-height: 142.6%;
+}
+
+@mixin font-36px-w500 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 142.6%;
 }
 
 @mixin font-18px-w700 {
   font-size: 18px;
   font-weight: 700;
+  line-height: 142.6%;
 }
 
 @mixin font-48px-w700 {
   font-size: 48px;
   font-weight: 700;
+  line-height: 142.6%;
 }
 
 @mixin flex-row {

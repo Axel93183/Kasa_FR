@@ -9,7 +9,7 @@ function CardList({ data }) {
         <Link to={`/fiche-logement/${item.id}`} key={item.id}>
           <Card housing={item} />
         </Link>
-      ))}
+      ))} 
     </div>
   );
 }

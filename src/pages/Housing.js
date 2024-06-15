@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import kasa_data from "../assets/json/kasa_data.json";
 import "../assets/sass/pages/_housing.scss";
 import HousingInfos from "../components/housing/HousingInfos";
+import Gallery from "../components/housing/Gallery";
 
 function Housing() {
   const { id } = useParams();
@@ -10,8 +11,8 @@ function Housing() {
 
   return (
     <div className="housing">
-      <img src={housing.cover} alt="" srcset="" />
-      <HousingInfos housing={housing} />
+      <Gallery pictures={housing.pictures} title={housing.title} />
+      <HousingInfos item={housing} />
       <section className="description-and-equipment"></section>
     </div>
   );

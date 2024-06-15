@@ -1,19 +1,19 @@
 import "../../assets/sass/components/_housingInfos.scss";
 
-function HousingInfos({ housing }) {
+function HousingInfos({ item }) {
   return (
     <div className="housing-infos">
       <div className="title-and-location">
-        <h1 className="title">{housing.title}</h1>
-        <p className="location">{housing.location}</p>
+        <h1 className="title">{item.title}</h1>
+        <p className="location">{item.location}</p>
         <div className="tags">tags - tags - tags</div>
       </div>
       <div className="host-and-rating">
         <div className="host">
-          <p className="host-name">{housing.host.name}</p>
+          <p className="host-name">{item.host.name}</p>
           <img
-            src={housing.host.picture}
-            alt={`portrait de ${housing.host.name}`}
+            src={item.host.picture}
+            alt={`portrait de ${item.host.name}`}
             className="host-picture"
           />
         </div>

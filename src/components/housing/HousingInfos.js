@@ -1,12 +1,18 @@
 import "../../assets/sass/components/_housingInfos.scss";
+import Tag from "./Tag";
+
+function reverseLocation(location) {
+  const parts = location.split(" - ");
+  return `${parts[1]} - ${parts[0]}`;
+}
 
 function HousingInfos({ item }) {
   return (
     <div className="housing-infos">
       <div className="title-and-location">
         <h1 className="title">{item.title}</h1>
-        <p className="location">{item.location}</p>
-        <div className="tags">tags - tags - tags</div>
+        <p className="location">{reverseLocation(item.location)}</p>
+        <Tag tags={item.tags} />
       </div>
       <div className="host-and-rating">
         <div className="host">

@@ -36,6 +36,12 @@
   line-height: 142.6%;
 }
 
+@mixin font-14px-w700 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 142.6%;
+}
+
 @mixin font-18px-w700 {
   font-size: 18px;
   font-weight: 700;

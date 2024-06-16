@@ -1,4 +1,4 @@
-import "../../assets/sass/components/_tag.scss";
+import "../../assets/sass/components/_housing/_tag.scss";
 
 function Tag({ tags }) {
   return (

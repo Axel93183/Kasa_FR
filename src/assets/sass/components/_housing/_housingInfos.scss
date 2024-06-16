@@ -1,4 +1,4 @@
-@import "../main.scss";
+@import "../../main.scss";
 
 .housing-infos {
   @include flex-row;
@@ -31,7 +31,7 @@
 
   .host-and-rating {
     @include flex-column;
-    gap: 21px;
+    gap: 26px;
     align-items: end;
 
     @media (max-width: 430.98px) {

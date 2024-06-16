@@ -4,7 +4,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import "../../assets/sass/components/_gallery.scss";
+import "../../assets/sass/components/_housing/_gallery.scss";
 
 function Gallery({ pictures, title }) {
   const [currentIndex, setCurrentIndex] = useState(0);

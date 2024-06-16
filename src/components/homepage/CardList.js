@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../assets/sass/components/_cardList.scss";
+import "../../assets/sass/components/_homepage/_cardList.scss";
 import Card from "./Card.js";
 
 function CardList({ data }) {

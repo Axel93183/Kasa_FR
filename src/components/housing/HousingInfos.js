@@ -1,4 +1,5 @@
-import "../../assets/sass/components/_housingInfos.scss";
+import "../../assets/sass/components/_housing/_housingInfos.scss";
+import Rating from "./Rating";
 import Tag from "./Tag";
 
 function reverseLocation(location) {
@@ -23,7 +24,8 @@ function HousingInfos({ item }) {
             className="host-picture"
           />
         </div>
-        <div className="host-rating">star - star - star</div>
+        <Rating rating={item.rating} />
+        {/* <div className="host-rating">star - star - star</div> */}
       </div>
     </div>
   );

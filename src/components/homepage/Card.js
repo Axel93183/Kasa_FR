@@ -1,4 +1,4 @@
-import "../../assets/sass/components/_card.scss";
+import "../../assets/sass/components/_homepage/_card.scss";
 
 function Card({ housing }) {
   return (

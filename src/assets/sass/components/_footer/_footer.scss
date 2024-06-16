@@ -30,10 +30,11 @@
   }
 
   @media (max-width: 430.98px) {
-    width: calc(100% + 40px);
+    width: 100%;
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: 0;
+    position: absolute;
   }
 
   img {

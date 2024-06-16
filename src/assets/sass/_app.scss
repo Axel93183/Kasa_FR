@@ -1,6 +1,7 @@
 @import "./main.scss";
 
 .App {
+  position: relative;
   padding: 45px 100px 0;
 
   @media (max-width: 1039.98px) {

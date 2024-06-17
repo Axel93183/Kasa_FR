@@ -1,0 +1,29 @@
+@import "../../assets/sass/main.scss";
+
+.about {
+  margin-top: -12px;
+
+  @media (max-width: 430.98px) {
+    margin-top: -8px;
+  }
+
+  .main-about {
+    @include flex-column;
+    gap: 30px;
+    padding: 0 108.5px;
+    margin-top: -5px;
+    margin-bottom: 38px;
+
+    @media (max-width: 430.98px) {
+      gap: 20px;
+      padding: 0;
+      margin-top: -3px;
+      margin-bottom: 19px;
+    }
+
+    div {
+      width: 100%;
+      position: relative;
+    }
+  }
+}

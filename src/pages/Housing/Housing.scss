@@ -1,0 +1,24 @@
+@import "../../assets/sass/main.scss";
+
+.housing {
+  margin-bottom: 50px;
+
+  @media (max-width: 430.98px) {
+    margin-bottom: 27px;
+  }
+
+  .description-and-equipment {
+    @include flex-row;
+    gap: 76px;
+
+    @media (max-width: 430.98px) {
+      @include flex-column;
+      gap: 20px;
+    }
+
+    div {
+      width: 100%;
+      position: relative;
+    }
+  }
+}

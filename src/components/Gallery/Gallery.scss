@@ -1,0 +1,60 @@
+@import "../../assets/sass/main.scss";
+
+.gallery {
+  width: 100%;
+  height: 415px;
+  border-radius: 25px;
+  position: relative;
+  margin-bottom: 24px;
+
+  @media (max-width: 430.98px) {
+    height: 255px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+
+  img {
+    width: 100%;
+    height: 415px;
+    border-radius: 25px;
+    object-fit: cover;
+
+    @media (max-width: 430.98px) {
+      height: 255px;
+      border-radius: 10px;
+    }
+  }
+
+  .chevrons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+    left: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 48px);
+    font-size: 80px;
+    color: white;
+
+    @media (max-width: 430.98px) {
+      font-size: 24px;
+    }
+
+    .arrow {
+      cursor: pointer;
+    }
+  }
+
+  p {
+    @include font-18px-w500;
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    color: white;
+
+    @media (max-width: 430.98px) {
+      display: none;
+    }
+  }
+}

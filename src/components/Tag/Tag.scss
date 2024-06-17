@@ -1,0 +1,34 @@
+@import "../../assets/sass/main.scss";
+
+.tags-container {
+  @include flex-row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 16px 0;
+
+  @media (max-width: 430.98px) {
+    margin-top: 15px;
+  }
+
+  .tag-name {
+    @include font-14px-w700;
+    @include flex-row;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    background: $red-orange;
+    padding: 5px 40px;
+    color: white;
+    white-space: nowrap;
+
+    @media (max-width: 430.98px) {
+      width: 30px;
+      height: 18px;
+      padding: 2px 30px;
+      border-radius: 6px;
+      font-size: 10px;
+    }
+  }
+}

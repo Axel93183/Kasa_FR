@@ -1,13 +1,14 @@
-import image from "../../assets/images/banner-home.png";
 import "../../assets/sass/components/_header/_banner.scss";
 
-function Banner() {
+function Banner({ image, title, altImg }) {
   return (
     <div className="banner">
-      <img src={image} alt="petite crique au bord d'une falaise" />
-      <div className="content">
-        <h1>Chez vous, partout et ailleurs</h1>
-      </div>
+      <img src={image} alt={altImg} />
+      {title && (
+        <div className="content">
+          <h1>{title}</h1>
+        </div>
+      )}
     </div>
   );
 }

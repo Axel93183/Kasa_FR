@@ -4,7 +4,7 @@
   margin-bottom: 50px;
   user-select: none;
 
-  @media (max-width: 430.98px) {
+  @media (max-width: 630px) {
     margin-bottom: 27px;
   }
 
@@ -12,7 +12,7 @@
     @include flex-row;
     gap: 76px;
 
-    @media (max-width: 430.98px) {
+    @media (max-width: 630px) {
       @include flex-column;
       gap: 20px;
     }

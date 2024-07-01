@@ -3,6 +3,7 @@
 .App {
   position: relative;
   padding: 45px 100px 0;
+  user-select: none;
 
   @media (max-width: 1039.98px) {
     padding: 40px 90px 0;

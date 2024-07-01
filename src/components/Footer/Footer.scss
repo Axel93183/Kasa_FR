@@ -10,6 +10,7 @@
   background-color: black;
   margin-left: -100px;
   margin-right: -100px;
+  user-select: none;
 
   @media (max-width: 1039.98px) {
     width: calc(100% + 180px);

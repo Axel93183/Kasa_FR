@@ -5,38 +5,13 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  width: calc(100% + 200px);
-  height: 209px;
+  width: 100vw;
+  min-height: 209px;
   background-color: black;
-  margin-left: -100px;
-  margin-right: -100px;
   user-select: none;
-
-  @media (max-width: 1039.98px) {
-    width: calc(100% + 180px);
-    margin-left: -90px;
-    margin-right: -90px;
-  }
-
-  @media (max-width: 900.98px) {
-    width: calc(100% + 160px);
-    margin-left: -80px;
-    margin-right: -80px;
-  }
-
-  @media (max-width: 780.98px) {
-    width: calc(100% + 140px);
-    margin-left: -70px;
-    margin-right: -70px;
-  }
-
-  @media (max-width: 630px) {
-    width: 100%;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 0;
-    position: absolute;
-  }
+  margin-top: auto;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
 
   img {
     width: 125px;
